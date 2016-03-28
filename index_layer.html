@@ -151,7 +151,7 @@ var DemLayer={
         layer.bindPopup(feature.properties.LIBELLE.bold().fontcolor(feature.properties.COLOR)+", "+feature.properties.ACTIVITE+", <br>"+feature.properties.MONTANT.toString().bold().fontcolor(feature.properties.COLOR)+" \u20ac");
       }
     if (feature.properties && feature.properties.LIBELLE && feature.properties.ACTIVITE && feature.properties.DETAIL) {
-        layer.bindPopup(feature.properties.LIBELLE.bold().fontcolor("blue")+", "+feature.properties.ACTIVITE+", "+feature.properties.DETAIL.italics()+", <br>"+feature.properties.MONTANT.toString().bold().fontcolor(feature.properties.COLOR)+" \u20ac");
+        layer.bindPopup(feature.properties.LIBELLE.bold().fontcolor(feature.properties.COLOR)+", "+feature.properties.ACTIVITE+", "+feature.properties.DETAIL.italics()+", <br>"+feature.properties.MONTANT.toString().bold().fontcolor(feature.properties.COLOR)+" \u20ac");
       }
     }
     var SporLayer=L.geoJson(SpoLayer, {
