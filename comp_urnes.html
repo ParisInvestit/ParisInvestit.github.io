@@ -9,9 +9,8 @@
 ${demo.css}
 		</style>
 		<script type="text/javascript">
-
-
-$(function () {
+        
+ $(function () {
     $('#container').highcharts({
         chart: {
             zoomType: 'xy'
@@ -21,7 +20,7 @@ $(function () {
         
         
         xAxis: [{
-            categories: ['Rive gauche', 'Rive droite'],
+            categories: ['Mairies de gauche', 'Mairies de droite'],
             crosshair: true
         }],
         yAxis: [{ // Primary yAxis
@@ -86,7 +85,7 @@ $(function () {
             name: 'Montants investis',
             type: 'column',
             yAxis: 1,
-            data: [365.30,975.89],
+            data: [973.21,368.00],
             tooltip: {
                 valueSuffix: ' M€'
             }
@@ -95,7 +94,7 @@ $(function () {
             name: 'Montant par tête',
             type: 'column',
             yAxis: 2,
-            data: [500,640],
+            data: [698,428],
             tooltip: {
                 valueSuffix: ' €'
             }
@@ -108,8 +107,10 @@ $(function () {
 	<body>
 
 <script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>       
+        
 
-<div id="container" style="min-width: 400px; height: 400px; margin: 0 auto"></div>
-</body>
+
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+	</body>
 </html>

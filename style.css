@@ -133,7 +133,7 @@ nav a:hover
 {
 
     width: 1000px;
-    background: url('images/Vue_Paris_flou.jpg') no-repeat;
+    background: url('images/panorama.jpg') no-repeat;
     margin-top: 0px;
     height: 580px;
     position: relative;
@@ -328,3 +328,38 @@ footer h1
     font-style: normal;
 
 }
+
+
+.dedicace1 {
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+
+.dedicace2 {
+    margin-left: 30%;
+    height: 200px;
+    }
+    
+.imagecenter {
+    width: 75%;
+    height: 150px;
+    float: center;
+    }
+#lien-bouton{
+   color:white;
+   font-family:verdana;
+   font-size:12px;
+   padding:5px 20px;
+   text-decoration:none;
+   background-image:url(degrade.png);
+   background-repeat:repaet-x;
+   background-position:top;
+   border:solid 1px white;
+   border-radius:2px;
+} 
+#lien{
+   color:white;
+   text-decoration:underline;
+   font-weight: bold;
+} 
