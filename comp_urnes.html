@@ -43,13 +43,13 @@ ${demo.css}
             title: {
                 text: 'Montants investis',
                 style: {
-                    color: Highcharts.getOptions().colors[0]
+                    color: '#ff8000'
                 }
             },
             labels: {
                 format: '{value} M€',
                 style: {
-                    color: Highcharts.getOptions().colors[0]
+                    color: '#ff8000'
                 }
             }
 
@@ -84,6 +84,7 @@ ${demo.css}
         series: [{
             name: 'Montants investis',
             type: 'column',
+            color:'#ff8000',
             yAxis: 1,
             data: [973.21,368.00],
             tooltip: {
